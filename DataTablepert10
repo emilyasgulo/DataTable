@@ -11,9 +11,10 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor : Colors.redAccent,
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent,
-        title: Text('Emilya Sari Gulo - 6 SIA 6'),
+         backgroundColor : Colors.grey,
+        title: Text('Rico Imanta Ginting - Kelas Mobile2 6SIA6'),
       ),
       body: ListView(children: <Widget>[
         Center(
@@ -42,3 +43,8 @@ class _MyAppState extends State<MyApp> {
               DataCell(Text('Sistem Informasi')),
             ]),
           ],
+        ),
+      ]),
+    );
+  }
+}
